@@ -161,7 +161,7 @@ a, a:visited, a:active, a:hover {
 }
 
 .profile {
-  background: url(https://res.cloudinary.com/sudoaldrich/image/upload/c_scale,h_600/e_blur:300/e_grayscale/v1/gh-page/arisu?_a=DATAdtAAZAA0);
+  background: url(https://res.cloudinary.com/sudoaldrich/image/upload/c_fill,h_150,w_1280/e_blur:300/e_grayscale/v1/gh-page/arisu?_a=DATAdtAAZAA0);
   background-size: cover;
   background-position: center;
 }

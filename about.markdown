@@ -5,15 +5,7 @@ permalink: /about/
 profile: true
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+This platform is a personal project dedicated to exploring and showcasing the capabilities of Jekyll, a powerful static site generator.
+With Jekyll's simplicity, flexibility, and efficiency in creating fast and easily maintainable websites.
+Here, I would share my insights, tutorials, and personal reflections on my journey in computer programming and tech-related trends.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll

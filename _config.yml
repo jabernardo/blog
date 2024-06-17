@@ -29,12 +29,13 @@ github_username: jabernardo
 author: "John Aldrich Bernardo"
 google:
   analytics: "G-MWTH1HZYCB"
+permalink: /:year/:month/:day/:title.html
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 1
+paginate: 20
 
 # Exclude from processing.
 # The following items will not be processed, by default.
