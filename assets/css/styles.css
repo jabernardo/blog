@@ -1,0 +1,196 @@
+html, body, .ibm-plex-sans-regular {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+}
+
+.ibm-plex-sans-thin {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-extralight {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-light {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-medium {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-semibold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-bold {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-sans-thin-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-sans-extralight-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-sans-light-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-sans-regular-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-sans-medium-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-sans-semibold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-sans-bold-italic {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*****************************************************************************/
+
+*, ::before, ::after {
+  --color-background: #dddbd8;
+  --color-font-primary: #242424;
+  --color-background-secondary: #444444;
+  --color-link: #d75819;
+  --color-link-secondary: #dddbd8;
+  --color-timestamp: #11806d;
+}
+
+/*****************************************************************************/
+
+html, body {
+  background: var(--color-background);
+  color: var(--color-font-primary);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+a, a:visited, a:active, a:hover {
+  color: var(--color-link);
+  text-decoration: none;
+  padding: 8px;
+  outline: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 1408px;
+  width: calc(100% - 1rem);
+  margin: auto auto;
+  padding: .5rem;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-background-secondary);
+  padding: 0 .5rem;
+  width: calc(100% - 1rem);
+}
+
+.navigation a, 
+.navigation a:visited,
+.navigation a:active,
+.navigation a:hover {
+  color: var(--color-link-secondary);
+  text-decoration: none;
+  padding: 8px;
+}
+
+.navigation .wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: auto auto;
+}
+
+.dates {
+  color: var(--color-timestamp);
+}
+
+.post {
+  font-size: 1rem;
+}
+
+#header {
+  color: #caffcd !important;
+  filter: drop-shadow(0 0 4px #333);
+}
+
+.profile {
+  background: url(https://res.cloudinary.com/sudoaldrich/image/upload/c_scale,h_600/e_blur:300/e_grayscale/v1/gh-page/arisu?_a=DATAdtAAZAA0);
+  background-size: cover;
+  background-position: center;
+}
+
+#post-list-links {
+  list-style-type: none;
+}
+
+#post-list-links a {
+  color: var(--color-font-primary);
+}
+ 
+#post-list-links a h2 {
+  color: var(--color-link);
+}
+
+#post-list-links a:hover h2 {
+  border-left: .5rem solid var(--color-link);
+  margin-left: -1rem;
+  padding-left: .5rem;
+}
+
+#post-list-links a p {
+  margin-top: 0.5rem;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+  padding: .5rem;
+}

@@ -1,10 +1,12 @@
-<nav class="main-nav">
-    {% if page.url != "/" %}
+<nav class="navigation">
+    <div class="wrapper">
+        {% if page.url != "/" %}
         <a href="{{ "/" | relative_url  }}"> <span class="arrow">←</span> Home </a>
-    {% endif %}
+        {% endif %}
 
-    {% if page.url != "/about/" %}
-        <a href="{{ "/" | relative_url  }}about">About </a>
-    {% endif %}
-    <a class="cta" href="{{ "/" | relative_url  }}feed.xml">Subscribe</a>
+        {% if page.url != "/about/" %}
+            <a href="{{ "/" | relative_url  }}about">About </a>
+        {% endif %}
+        <a class="cta" href="{{ "/" | relative_url  }}feed.xml">Subscribe</a>
+    </div>
 </nav>

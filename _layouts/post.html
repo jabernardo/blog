@@ -6,12 +6,13 @@ archive: true
 <article class="post">
     <header>
         <h1>{{ page.title }}</h1>
-        <h2 class="headline">{{ page.date | date:"%B %-d, %Y" }}</h2>
+        <p class="headline dates">{{ page.date | date:"%B %-d, %Y" }}</p>
     </header>
     <section id="post-body">
         {{content}}
     </section>
 </article>
+
 <footer id="post-meta" class="clearfix">
     <section id="sharing">
         {% include share.html %}
