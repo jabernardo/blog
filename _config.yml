@@ -27,12 +27,14 @@ url: "https://jabernardo.github.io/blog" # the base hostname & protocol for your
 twitter_username: ""
 github_username: jabernardo
 author: "John Aldrich Bernardo"
+google:
+  analytics: "G-MWTH1HZYCB"
 
 plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 20
+paginate: 1
 
 # Exclude from processing.
 # The following items will not be processed, by default.
