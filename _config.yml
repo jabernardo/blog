@@ -29,10 +29,11 @@ url: "https://jabernardo.github.io/blog" # the base hostname & protocol for your
 twitter_username: ""
 github_username: jabernardo
 
-# Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 20
 
 # Exclude from processing.
 # The following items will not be processed, by default.
