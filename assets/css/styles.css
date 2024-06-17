@@ -158,6 +158,34 @@ a, a:visited, a:active, a:hover {
 #header {
   color: #caffcd !important;
   filter: drop-shadow(0 0 4px #333);
+  display: grid;
+  grid-template:
+    'icon title';
+    grid-template-columns: 134px auto;
+  padding: 8px;
+}
+
+
+#header .icon {
+  grid-area: icon;
+  width: 128px;
+  fill: #caffcd !important;
+  filter: drop-shadow(0 0 4px #333);
+}
+
+#header .title {
+  grid-area: title;
+}
+
+#header .title,
+#header .subtitle {
+  padding: 0.5rem;
+  margin: 0;
+}
+
+#header #icon-coffee {
+  height: 128px;
+  width: 128px;
 }
 
 .profile {
@@ -192,5 +220,6 @@ a, a:visited, a:active, a:hover {
   display: flex;
   flex-direction: column;
   margin-top: 1rem;
-  padding: .5rem;
+  padding: 0 .5rem;
+  border-top: solid 1px #c9c9c9;
 }
