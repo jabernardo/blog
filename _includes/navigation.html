@@ -1,12 +1,17 @@
 <nav class="navigation">
-    <div class="wrapper">
-        {% if page.url != "/" %}
-        <a href="{{ "/" | relative_url  }}"> <span class="arrow">←</span> Home </a>
-        {% endif %}
+    <div class="wrapper nav-links">
+        <a href="{{ "/" | relative_url }}">
+          <img alt="logo" width="24" height="24" src="https://res.cloudinary.com/sudoaldrich/image/upload/w_64/v1718714005/gh-page/2_mig9wm.png" />
+        </a>
 
-        {% if page.url != "/about/" %}
-            <a href="{{ "/" | relative_url  }}about">About </a>
-        {% endif %}
-        <a class="cta" href="{{ "/" | relative_url  }}feed.xml">Subscribe</a>
+        <a href="{{ "/" | relative_url }}">
+          Home
+        </a>
+        <a href="{{ "/" | relative_url  }}about">About </a>
+        <a class="cta" href="{{ "/" | relative_url  }}feed.xml">
+          <svg id="icon-rss" viewBox="0 0 32 32">
+            <path fill="#ffa500" style="fill: var(--color1, #ffa500)" d="M25.599 32c0-14.044-11.555-25.6-25.599-25.6v-6.4c17.553 0 32 14.447 32 32zM4.388 23.22c2.419 0 4.391 1.972 4.391 4.393 0 2.417-1.98 4.387-4.401 4.387-2.417 0-4.377-1.965-4.377-4.387s1.967-4.392 4.388-4.393zM21.212 32h-6.22c0-8.225-6.767-14.993-14.992-14.993v-6.22c11.636 0 21.212 9.579 21.212 21.213z"></path>
+          </svg>
+        </a>
     </div>
 </nav>

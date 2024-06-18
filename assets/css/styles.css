@@ -163,8 +163,12 @@ a, a:visited, a:active, a:hover {
     'icon title';
     grid-template-columns: 134px auto;
   padding: 8px;
+  align-items: center;
 }
 
+#header * {
+  user-select: none;
+}
 
 #header .icon {
   grid-area: icon;
@@ -174,13 +178,18 @@ a, a:visited, a:active, a:hover {
 }
 
 #header .title {
+  display: grid;
   grid-area: title;
 }
 
-#header .title,
-#header .subtitle {
+#header .title h1,
+#header .title h2 {
   padding: 0.5rem;
   margin: 0;
+}
+
+#header .title h2 {
+  color: #ffe7ce;
 }
 
 #header #icon-coffee {
@@ -188,8 +197,20 @@ a, a:visited, a:active, a:hover {
   width: 128px;
 }
 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.nav-links svg {
+  width: 16px;
+  height: 16px;
+}
+
 .profile {
-  background: url(https://res.cloudinary.com/sudoaldrich/image/upload/c_fill,h_150,w_1280/e_blur:300/e_grayscale/v1/gh-page/arisu?_a=DATAdtAAZAA0);
+  background: url(https://res.cloudinary.com/sudoaldrich/image/upload/c_fill,h_150,w_1280/e_blur:800/e_grayscale/v1/gh-page/arisu?_a=DATAdtAAZAA0);
   background-size: cover;
   background-position: center;
 }
@@ -214,6 +235,24 @@ a, a:visited, a:active, a:hover {
 
 #post-list-links a p {
   margin-top: 0.5rem;
+}
+
+#sharing {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.share-link {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 4px;
+}
+
+.share-link svg {
+  width: 24px;
+  height: 24px;
 }
 
 #footer {
