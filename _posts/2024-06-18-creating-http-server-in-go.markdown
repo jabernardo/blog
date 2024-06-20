@@ -5,6 +5,7 @@ description: "This is a tutorial on how-to create an HTTP server in Go. Specific
 keywords: "go, go-lang, http server, how-to"
 date:   2024-06-18 10:05:51 +0800
 categories: go-lang how-to http server
+preview: https://res.cloudinary.com/sudoaldrich/image/upload/f_auto,q_auto/v1/blogs/http-in-go/jhe5t8cf7qu0jq6apyk4
 ---
 
 ## Introduction
