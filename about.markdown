@@ -1,6 +1,8 @@
 ---
 layout: default
 title: About
+description: About this blog
+keywords: "blog, tech"
 permalink: /about/
 profile: true
 ---

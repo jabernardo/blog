@@ -2,6 +2,7 @@
 layout: post
 title:  "Creating an HTTP server in Go"
 description: "This is a tutorial on how-to create an HTTP server in Go. Specifically, Go 1.22 as it introduced enhanced pattern routing."
+keywords: "go, go-lang, http server, how-to"
 date:   2024-06-18 10:05:51 +0800
 categories: go-lang how-to http server
 ---

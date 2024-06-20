@@ -6,6 +6,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}</title>
+  {% if page.description %}
+  <meta name="description" content="{{ page.description }}">
+  <meta name="twitter:image:src" content="https://res.cloudinary.com/sudoaldrich/image/upload/w_400/v1/portfolio/me-prof_ghmwhg">
+  <meta name="twitter:site" content="@jabernardo.github.io">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta property="og:image" content="https://res.cloudinary.com/sudoaldrich/image/upload/w_400/v1/portfolio/me-prof_ghmwhg">
+  <meta property="og:image:alt" content="{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}">
+  <meta property="og:site_name" content="Aldrich's Blog">
+  <meta property="og:type" content="{% if page.profile %}website{% else %}article{% endif %}">
+  <meta property="og:title" content="{{ site.title }}{% if page.title %} - {{ page.title }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:description" content="{{ page.description }}">
+  {% endif %}
+  {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}" >{% endif %}
+
   <link rel="icon" href="{{ "/" | relative_url }}assets/img/favicon.png" type="image/png">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/github-dark.min.css">
   <link rel="alternate" type="application/rss+xml" title="My Blog" href="{{ "/" | relative_url  }}feed.xml">
