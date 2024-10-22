@@ -1,4 +1,6 @@
-html, body, .ibm-plex-sans-regular {
+html,
+body,
+.ibm-plex-sans-regular {
   font-family: "IBM Plex Sans", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -85,7 +87,9 @@ html, body, .ibm-plex-sans-regular {
 
 /*****************************************************************************/
 
-*, ::before, ::after {
+*,
+::before,
+::after {
   --color-background: #dddbd8;
   --color-font-primary: #242424;
   --color-background-secondary: #444444;
@@ -96,7 +100,8 @@ html, body, .ibm-plex-sans-regular {
 
 /*****************************************************************************/
 
-html, body {
+html,
+body {
   background: var(--color-background);
   color: var(--color-font-primary);
 }
@@ -106,7 +111,10 @@ body {
   flex-direction: column;
 }
 
-a, a:visited, a:active, a:hover {
+a,
+a:visited,
+a:active,
+a:hover {
   color: var(--color-link);
   text-decoration: none;
   padding: 8px;
@@ -132,7 +140,7 @@ a, a:visited, a:active, a:hover {
   width: calc(100% - 1rem);
 }
 
-.navigation a, 
+.navigation a,
 .navigation a:visited,
 .navigation a:active,
 .navigation a:hover {
@@ -161,7 +169,7 @@ a, a:visited, a:active, a:hover {
   display: grid;
   grid-template:
     'icon title';
-    grid-template-columns: 134px auto;
+  grid-template-columns: 134px auto;
   padding: 8px;
   align-items: center;
 }
@@ -222,7 +230,7 @@ a, a:visited, a:active, a:hover {
 #post-list-links a {
   color: var(--color-font-primary);
 }
- 
+
 #post-list-links a h2 {
   color: var(--color-link);
 }
@@ -241,6 +249,10 @@ a, a:visited, a:active, a:hover {
   margin-top: 3rem;
   display: flex;
   flex-direction: row;
+}
+
+#post-body img {
+  width: 100%;
 }
 
 .share-link {
