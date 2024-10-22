@@ -193,6 +193,6 @@ Let's try it now!
 ## Conclusion
 
 This is a very simple kickstart project to start of your journey into Reverse Proxy. I hope you'd find this useful.
-Next step is to introduce a regular expression matching this currently throws the page not founds for non-matching paths.
+Next step is to introduce a regular expression matching as this currently throws page not founds for non-matching paths.
 
 To see the full project in this tutorial [click here](https://github.com/jabernardo/tuts/tree/main/reverse-proxy).
