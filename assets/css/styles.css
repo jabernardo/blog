@@ -274,3 +274,8 @@ a:hover {
   padding: 0 .5rem;
   border-top: solid 1px #c9c9c9;
 }
+
+iframe {
+  width: 100%;
+  min-height: 512px;
+}
