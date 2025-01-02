@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Creating your own SPA library"
-description: "Creating your own SPA library"
+description: "Recreating the wheel in a world full of frameworks. Let's learn how-to create a SPA."
 keywords: "javascript, js, vanilla js, spa, tutorial"
 date:   2025-01-01 22:20:51 +0800
 categories: frontend how-to spa

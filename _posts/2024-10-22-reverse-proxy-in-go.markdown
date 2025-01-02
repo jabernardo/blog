@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Reverse Proxy in Go"
-description: "Creating a reverse proxy in Go"
+description: "Creating a reverse proxy in Go. This is a part of my exploration in Goland."
 keywords: "go, go-lang, http server, how-to, reverse proxy"
 date:   2024-10-22 21:00:51 +0800
 categories: go-lang how-to http server
