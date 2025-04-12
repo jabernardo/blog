@@ -10,8 +10,12 @@ preview: https://res.cloudinary.com/sudoaldrich/image/upload/f_auto,q_auto/v1/bl
 
 ## What's a reverse proxy?
 
-Nah, let's skip this part. Knowing you've landed here means that you've understand what you'd want to build.
+A reverse proxy is a server that sits on top of other servers that handles clients request on their behalf. Reverse proxy could help increase scalability of applications through load balancing.
 
+Common Reverse Proxy Servers:
+- Nginx
+- HAProxy
+- Cloudflare
 
 ## Reverse Proxy in httputil
 
