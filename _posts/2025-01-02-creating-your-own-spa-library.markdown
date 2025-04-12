@@ -11,8 +11,9 @@ preview: https://res.cloudinary.com/sudoaldrich/image/upload/v1735741173/blogs/t
 # Learning SPA by building one
 
 JavaScript ecosystem is pretty loaded with front-end frameworks that allows us to create SPAs.
+It got me curious -- how could these frameworks do it?
 
-You might be thinking, "Why bother?" or "Don't reinvent the wheel" -- I'd like to learn, to put it simply.
+This is my exploration into creating SPAs using just Vanilla JavaScript.
 
 ## SPAs
 
